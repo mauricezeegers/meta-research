@@ -31,7 +31,7 @@ Current Researchers: Raman Mahajan, Manuel Origgi, Maurice Zeegers
 
 Current Projects: [SERCEA](https://www.serceaproject.org/)
 
-Current Researchers: Gowri Gopalakrishna, Enock Kebenei, Kirsten Reijbroek, Paula Saner
+Current Researchers: Gowri Gopalakrishna, Enock Kebenei, Kirsten Reijbroek, Paula Saner, Maurice Zeegers
 
 1.	Bakker, Caitlin J., Erin E. Reardon, Sarah Jane Brown, e.a. ‘Identification of Retracted Publications and Completeness of Retraction Notices in Public Health’. Journal of Clinical Epidemiology 173 (september 2024): 111427. https://doi.org/10.1016/j.jclinepi.2024.111427.
 2.	Bakker, Caitlin J., Nicole Theis-Mahon, Sarah Jane Brown, en Maurice P. Zeegers. ‘The Relationship between Methodological Quality and the Use of Retracted Publications in Evidence Syntheses’. Systematic Reviews 12, nr. 1 (2023): 168. https://doi.org/10.1186/s13643-023-02316-z.
@@ -39,7 +39,7 @@ Current Researchers: Gowri Gopalakrishna, Enock Kebenei, Kirsten Reijbroek, Paul
 
 ## Systematic Literature Reviews & Evidence Synthesis
 
-Current Researchers: Alberto Selvanetti, Teshome Abuka
+Current Researchers: Alberto Selvanetti, Teshome Abuka, Maurice Zeegers
 
 1.	Rao, Yufeng, Shiqiu Meng, Evan Yi-Wen Yu, e.a. ‘Antidiabetic Medications and Bladder Cancer Risk in Type 2 Diabetes: A Systematic Review and Meta-Analysis of Randomized Controlled Trials’. Endocrine Practice: Official Journal of the American College of Endocrinology and the American Association of Clinical Endocrinologists, 17 december 2025, S1530-891X(25)01328-X. https://doi.org/10.1016/j.eprac.2025.11.017.
 2.	Nair, Mohit M., Raman Mahajan, Sakib Burza, en Maurice P. Zeegers. ‘Behavioural Interventions to Address Rational Use of Antibiotics in Outpatient Settings of Low-Income and Lower-Middle-Income Countries’. Tropical Medicine & International Health: TM & IH, advance online publication, 16 januari 2021. https://doi.org/10.1111/tmi.13550.
