@@ -6,7 +6,7 @@ This page is part of the [central academic repository](https://github.com/mauric
 
 Meta-research focuses on applying scientific methods to evaluate and improve the way research is conducted, reported and translated into practice. Rather than generating new data alone, it aims to strengthen the reliability, efficiency and impact of existing scientific evidence. Our work in meta-research addresses key challenges in the current research ecosystem, including variability in study quality, limited reproducibility and inefficiencies in evidence generation. We develop and apply methods to improve transparency, robustness and interpretability of scientific findings, ensuring that evidence is fit for purpose and used in society.
 
-Our work is structured across the following domains:
+Example projects and papers are given for the following domains:
 
 ## Publishing & Bibliometrics
 Current Projects: [BMJ](https://www.bmj.com/about-bmj/evidence-based-publishing), [Predatory Journals](https://osf.io/kz7js/overview) 
