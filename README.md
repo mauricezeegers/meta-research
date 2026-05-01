@@ -9,7 +9,7 @@ Meta-research focuses on applying scientific methods to evaluate and improve the
 Our work is structured across the following domains:
 
 ## Publishing & Bibliometrics
-Current Projects: [BMJ](https://www.bmj.com/about-bmj/evidence-based-publishing)
+Current Projects: [BMJ](https://www.bmj.com/about-bmj/evidence-based-publishing), [Predatory Journals](https://osf.io/kz7js/overview) 
 
 Current Researchers: Sara Schroter, Lex Bouter, Alberto Selvanetti, Amani Abu-Shaheen, Isamme AlFayyad, Maurice Zeegers
 
@@ -29,7 +29,7 @@ Current Researchers: Raman Mahajan, Manuel Origgi, Maurice Zeegers
 
 ## Responsible Research & Reproducibility
 
-Current Projects: [SERCEA](https://www.serceaproject.org/), [SERCEA Survey/Interviews on OSF](https://osf.io/6gd9s/overview)
+Current Projects: [SERCEA](https://www.serceaproject.org/), [SERCEA-OSF](https://osf.io/6gd9s/overview), [RI Practices during COVID19](https://osf.io/dc64j/overview), 
 
 Current Researchers: Gowri Gopalakrishna, Enock Kebenei, Kirsten Reijbroek, Paula Saner, Maurice Zeegers
 
