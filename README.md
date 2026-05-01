@@ -19,7 +19,7 @@ Current Researchers: Sara Schroter, Lex Bouter, Alberto Selvanetti, Amani Abu-Sh
 
 ## Methods Development & Standards
 
-Current Projects: [SPIROS](https://www.maastrichtuniversity.nl/spiros-responsible-reporting)
+Current Projects: [SPIROS](https://www.maastrichtuniversity.nl/spiros-responsible-reporting), [SPIROS-OSF](https://osf.io/t6rvj/overview)
 
 Current Researchers: Raman Mahajan, Manuel Origgi, Maurice Zeegers
 
