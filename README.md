@@ -9,16 +9,20 @@ Meta-research focuses on applying scientific methods to evaluate and improve the
 Our work is structured across the following domains:
 
 ## Publishing & Bibliometrics
-*Current Projects*: [BMJ](https://www.bmj.com/about-bmj/evidence-based-publishing)
+Current Projects: [BMJ](https://www.bmj.com/about-bmj/evidence-based-publishing)
 
-*Current Researchers*: Maurice Zeegers, Sara Schroter, Lex Bouter, Alberto Selvanetti, Amani Abu-Shaheen, Isamme AlFayyad
+Current Researchers: Maurice Zeegers, Sara Schroter, Lex Bouter, Alberto Selvanetti, Amani Abu-Shaheen, Isamme AlFayyad
 
 1.	AlFayyad, Isamme, Maurice P. Zeegers, Lex Bouter, Helen Macdonald, en Sara Schroter. ‘Self-Disclosed Use of AI in Research Submissions to BMJ Journals’. JAMA, advance online publication, 28 januari 2026. https://doi.org/10.1001/jama.2025.25688.
 2.	Rethlefsen, Melissa L., Sara Schroter, Lex M. Bouter, e.a. ‘Improving Peer Review of Systematic Reviews and Related Review Types by Involving Librarians and Information Specialists as Methodological Peer Reviewers: A Randomised Controlled Trial’. BMJ Evidence-Based Medicine, 11 maart 2025, bmjebm-2024-113527. https://doi.org/10.1136/bmjebm-2024-113527.
 3.	Urlings, Miriam J. E., Bram Duyx, Gerard M. H. Swaen, Lex M. Bouter, en Maurice P. Zeegers. ‘Citation Bias and Other Determinants of Citation in Biomedical Research: Findings from Six Citation Networks’. Journal of Clinical Epidemiology 132 (april 2021): 71-78. https://doi.org/10.1016/j.jclinepi.2020.11.019.
 
 ## Methods Development & Standards
+
 Current Projects: [SPIROS](https://www.maastrichtuniversity.nl/spiros-responsible-reporting)
+
+Current Researchers: Maurice Zeegers, Raman Mahajan, Manuel Origgi
+
 1.	Rethlefsen, Melissa L., Tara J. Brigham, Carrie Price, e.a. ‘Systematic Review Search Strategies Are Poorly Reported and Not Reproducible: A Cross-Sectional Meta-Research Study’. Journal of Clinical Epidemiology, 3 december 2023, 111229. https://doi.org/10.1016/j.jclinepi.2023.111229.
 2.	Mahajan, Raman, Sakib Burza, Lex M. Bouter, e.a. ‘Standardized Protocol Items Recommendations for Observational Studies (SPIROS) for Observational Study Protocol Reporting Guidelines: Protocol for a Delphi Study’. JMIR Research Protocols 9, nr. 10 (2020): e17864. https://doi.org/10.2196/17864.
 3.	Duyx, B., M. J. E. Urlings, G. M. H. Swaen, L. M. Bouter, en M. P. Zeegers. ‘Scientific citations favor positive results: a systematic review and meta-analysis’. J Clin Epidemiol 88 (augustus 2017): 92-101. https://doi.org/10.1016/j.jclinepi.2017.06.002.
