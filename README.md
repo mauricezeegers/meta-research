@@ -34,7 +34,7 @@ Current Projects: [SERCEA](https://www.serceaproject.org/), [SERCEA-OSF](https:/
 Current Researchers: Gowri Gopalakrishna, Enock Kebenei, Kirsten Reijbroek, Paula Saner, Maurice Zeegers
 
 1.	Bakker, Caitlin J., Erin E. Reardon, Sarah Jane Brown, e.a. ‘Identification of Retracted Publications and Completeness of Retraction Notices in Public Health’. Journal of Clinical Epidemiology 173 (september 2024): 111427. https://doi.org/10.1016/j.jclinepi.2024.111427. [OSF](https://osf.io/rwzym/overview)
-2.	Bakker, Caitlin J., Nicole Theis-Mahon, Sarah Jane Brown, en Maurice P. Zeegers. ‘The Relationship between Methodological Quality and the Use of Retracted Publications in Evidence Syntheses’. Systematic Reviews 12, nr. 1 (2023): 168. https://doi.org/10.1186/s13643-023-02316-z.[OSF](https://osf.io/pn4ca/overview)
+2.	Bakker, Caitlin J., Nicole Theis-Mahon, Sarah Jane Brown, en Maurice P. Zeegers. ‘The Relationship between Methodological Quality and the Use of Retracted Publications in Evidence Syntheses’. Systematic Reviews 12, nr. 1 (2023): 168. https://doi.org/10.1186/s13643-023-02316-z. [OSF](https://osf.io/pn4ca/overview)
 3.	Ridder, Jeroen de, Lex Bouter, Tamarinde Haven, Rik Peels, Joeri Tijdink, en Maurice P. Zeegers. ‘In Defense of the Netherlands Research Integrity Code: Response to Radder’. Accountability in Research, advance online publication, 27 januari 2023. https://doi.org/10.1080/08989621.2023.2167599.
 
 ## Systematic Literature Reviews & Evidence Synthesis
