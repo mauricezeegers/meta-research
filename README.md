@@ -11,7 +11,7 @@ Our work is structured across the following domains:
 ## Publishing & Bibliometrics
 Current Projects: [BMJ](https://www.bmj.com/about-bmj/evidence-based-publishing)
 
-Current Researchers:fadf
+Current Researchers: Maurice Zeegers, Sara Schroter, Lex Bouter, Alberto Selvanetti, Amani Abu-Shaheen, Isamme AlFayyad
 
 1.	AlFayyad, Isamme, Maurice P. Zeegers, Lex Bouter, Helen Macdonald, en Sara Schroter. ‘Self-Disclosed Use of AI in Research Submissions to BMJ Journals’. JAMA, advance online publication, 28 januari 2026. https://doi.org/10.1001/jama.2025.25688.
 2.	Rethlefsen, Melissa L., Sara Schroter, Lex M. Bouter, e.a. ‘Improving Peer Review of Systematic Reviews and Related Review Types by Involving Librarians and Information Specialists as Methodological Peer Reviewers: A Randomised Controlled Trial’. BMJ Evidence-Based Medicine, 11 maart 2025, bmjebm-2024-113527. https://doi.org/10.1136/bmjebm-2024-113527.
