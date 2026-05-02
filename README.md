@@ -9,7 +9,7 @@ Meta-research focuses on applying scientific methods to evaluate and improve the
 For most researched areas, selected example publications and projects are provided.
 
 ## Publishing & Bibliometrics
-Current Projects: [BMJ](https://www.bmj.com/about-bmj/evidence-based-publishing), [Predatory Journals](https://osf.io/kz7js/overview) 
+Current Projects/Datasets: [BMJ](https://www.bmj.com/about-bmj/evidence-based-publishing), [Predatory Journals](https://osf.io/kz7js/overview) 
 
 Current Researchers: Sara Schroter, Lex Bouter, Alberto Selvanetti, Amani Abu-Shaheen, Isamme AlFayyad, Maurice Zeegers
 
@@ -19,7 +19,7 @@ Current Researchers: Sara Schroter, Lex Bouter, Alberto Selvanetti, Amani Abu-Sh
 
 ## Methods Development & Standards
 
-Current Projects: [SPIROS](https://www.maastrichtuniversity.nl/spiros-responsible-reporting), [SPIROS-OSF](https://osf.io/t6rvj/overview)
+Current Projects/Datasets: [SPIROS](https://www.maastrichtuniversity.nl/spiros-responsible-reporting), [SPIROS-OSF](https://osf.io/t6rvj/overview)
 
 Current Researchers: Raman Mahajan, Manuel Origgi, Maurice Zeegers
 
@@ -29,7 +29,7 @@ Current Researchers: Raman Mahajan, Manuel Origgi, Maurice Zeegers
 
 ## Responsible Research & Reproducibility
 
-Current Projects: [SERCEA](https://www.serceaproject.org/), [SERCEA-OSF](https://osf.io/6gd9s/overview), [RI Practices during COVID19](https://osf.io/dc64j/overview), [Ethical Approval Timelines](https://osf.io/2k5fq/overview)
+Current Projects/Datasets: [SERCEA](https://www.serceaproject.org/), [SERCEA-OSF](https://osf.io/6gd9s/overview), [RI Practices during COVID19](https://osf.io/dc64j/overview), [Ethical Approval Timelines](https://osf.io/2k5fq/overview)
 
 Current Researchers: Gowri Gopalakrishna, Enock Kebenei, Kirsten Reijbroek, Paula Saner, Maurice Zeegers
 
