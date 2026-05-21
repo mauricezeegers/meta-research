@@ -45,9 +45,7 @@ pacman::p_load(rio,           # import/export of many types of data
 
 setwd("~/Library/CloudStorage/OneDrive-MaastrichtUniversity/SERCEA Survey/Data")
 
-
 # Data Importing Section --------------------------------------------------
-
 
 
 #upload data into R and view data
