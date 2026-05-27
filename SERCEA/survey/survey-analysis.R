@@ -4,8 +4,6 @@
 #Online Survey Analysis
 
 #27-05-2026: Maurice Zeegers overgestapt naar Github
-#Gechecked tot aan Respons Rate Calculation
-
 
 # Install and load packages ---------------------------------------------
 
@@ -250,7 +248,7 @@ names(ri_os_survey)
 
 
 
-# Response Rate Calculation -----------------------------------
+# Study Population -----------------------------------
 
 
 
@@ -279,196 +277,11 @@ ri_os_survey %>%
 
 
 
-# create a summary table for role_total, split per participant group and per country
+#TABLE 1 create a summary table for role_total, split per participant group and per country
 ri_os_survey %>% 
   dplyr::select(country, role_total) %>% 
   tbl_summary(by = country)
 
-
-
-# only final response rates could be included in report
-# intermediate response rates were calculated for progress updates
-# calculating response rate per participant group in Malawi
-13/6 * 100 # NRA response rate (217%)
-25/19 * 100 # RA response rate (132%)
-44/96 * 100 # REC response rate (46%)
-320/1695 * 100 # Researcher response rate (17%)
-295 + 44 + 25 + 13 # Total response number
-377 / 1816 # Total response rate (21%)
-
-# Full response rate Malawi
-11/6 * 100 # NRA response rate (283%)
-17/19 * 100 # RA response rate (89%)
-36/96 * 100 # REC response rate (38%)
-211/1695 * 100 # Researcher response rate (12%)
-211 + 36 + 17 + 11 # Total response number
-275 / 1816 # Total response rate (15%)
-
-
-# calculating response rate in Uganda
-1/4 * 100 # NRA response rate (25%)
-5/36 * 100 # RA response rate (14%)
-1/36 * 100 # REC response rate (3%)
-37/3616 * 100 # Researcher response rate (1%)
-37 + 1 +5 +1 # Total response number
-44 / 3692 # Total response rate (1%)
-95/3692
-121/3692
-
-3/4 * 100 # NRA response rate (75%)
-29/36 * 100 # RA response rate (81%)
-20/36 * 100 # REC response rate (56%)
-130/3616 * 100 # Researcher response rate (4%)
-3 + 29 + 20 + 130 # Total response number
-182 / 3692 # Total response rate (5%)
-
-6/4 * 100 # NRA response rate (150%)
-38/36 * 100 # RA response rate (106%)
-26/36 * 100 # REC response rate (72%)
-193/3616 * 100 # Researcher response rate (5%)
-6 + 38 + 26 + 193 # Total response number
-263 / 3692 # Total response rate (7%)
-
-5/4 * 100 # NRA response rate (125%)
-31/36 * 100 # RA response rate (86%)
-27/36 * 100 # REC response rate (75%)
-169/3616 * 100 # Researcher response rate (5%)
-5 + 31 + 27 + 169 # Total response number
-232 / 3692 # Total response rate (6%)
-
-# response rate 18-12 with missing data cases
-6/4 * 100 # NRA response rate (150%)
-43/36 * 100 # RA response rate (119%)
-31/36 * 100 # REC response rate (86%)
-228/3616 * 100 # Researcher response rate (6%)
-6 + 43 + 31 + 228 # Total response number
-308 / 3692 # Total response rate (8%)
-
-# response rate Uganda 6-1-2025 without missing data
-5/4 * 100 # NRA response rate (125%)
-34/36 * 100 # RA response rate (94%)
-30/36 * 100 # REC response rate (83%)
-207/3616 * 100 # Researcher response rate (5.7%)
-5 + 34 + 30 + 207 # Total response number
-276 / 3692 # Total response rate (7.5%)
-
-# Final response rate Uganda (22-1-2025)
-6/4 * 100 # NRA response rate (150%)
-34/36 * 100 # RA response rate (94%)
-31/36 * 100 # REC response rate (86%)
-210/3616 * 100 # Researcher response rate (5.8%)
-6 + 34 + 31 + 210 # Total response number
-281 / 3692 # Total response rate (7.6%)
-
-
-#calculating response rate in Kenya
-2/14 * 100 # NRA response rate (14%)
-8/44 * 100 # RA response rate (18%)
-11/81 * 100 # REC response rate (14%)
-59/34000 * 100 # Researcher response rate (<1%)
-2 + 8 + 11 + 59 # Total response number
-80 / 34139 * 100 # Total response rate (<1%)
-
-8/14 * 100 # NRA response rate (57%)
-39/44 * 100 # RA response rate (89%)
-54/81 * 100 # REC response rate (67%)
-405/34000 * 100 # Researcher response rate (1%)
-8 + 39 + 54 + 405 # Total response number
-506 / 34139 * 100 # Total response rate (1%)
-
-4/14 * 100 # NRA response rate (57%)
-35/44 * 100 # RA response rate (89%)
-54/81 * 100 # REC response rate (67%)
-372/30864 * 100 # Researcher response rate (1%)
-4 + 35 + 54 + 372 # Total response number
-465 / 31003 * 100 # Total response rate (1.5%)
-
-# 29-01-2025 Kenya
-14/14 * 100 # NRA response rate (100%)
-89/44 * 100 # RA response rate (202%)
-99/81 * 100 # REC response rate (122%)
-854/30864 * 100 # Researcher response rate (3%)
-14 + 89 + 99 + 854 # Total response number
-1056 / 31003 * 100 # Total response rate (3.4%)
-1056/ 12717 * 100 # Total response rate (8%)
-
-# 10-02-2025 Kenya
-14/14 * 100 # NRA response rate (100%)
-89/44 * 100 # RA response rate (202%)
-99/81 * 100 # REC response rate (122%)
-854/30864 * 100 # Researcher response rate (3%)
-14 + 89 + 99 + 854 # Total response number
-1056 / 31003 * 100 # Total response rate (3.4%)
-1056/ 12717 * 100 # Total response rate (8%)
-
-
-#calculating response rate in Tanzania
-1/9 * 100 # NRA response rate (11%)
-6/24 * 100 # RA response rate (25%)
-2/24 * 100 # REC response rate (8%)
-44/1576 * 100 # Researcher response rate (3%)
-1 + 6 + 2 + 44 # Total response number
-53 / 1633 * 100 # Total response rate (3%)
-
-#calculating response rate in Tanzania
-1/9 * 100 # NRA response rate (11%)
-7/24 * 100 # RA response rate (25%)
-2/24 * 100 # REC response rate (8%)
-67/1576 * 100 # Researcher response rate (3%)
-1 + 7 + 2 + 67 # Total response number
-77 / 1633 * 100 # Total response rate (5%)
-
-#calculating response rate in Tanzania
-2/9 * 100 # NRA response rate (22%)
-9/24 * 100 # RA response rate (38%)
-7/24 * 100 # REC response rate (29%)
-95/1576 * 100 # Researcher response rate (6%)
-2 + 9 + 7 + 95 # Total response number
-113 / 1633 * 100 # Total response rate (7%)
-
-#calculating response rate in Tanzania (29-01-2025)
-2/9 * 100 # NRA response rate (22%)
-10/24 * 100 # RA response rate (41%)
-10/24 * 100 # REC response rate (41%)
-108/1576 * 100 # Researcher response rate (6.8%)
-2 + 10 + 10 + 108 # Total response number
-130 / 1633 * 100 # Total response rate (8%)
-
-#calculating response rate in Tanzania (10-02-2025)
-2/9 * 100 # NRA response rate (22%)
-10/24 * 100 # RA response rate (41%)
-10/24 * 100 # REC response rate (41%)
-108/1576 * 100 # Researcher response rate (6.8%)
-2 + 10 + 10 + 108 # Total response number
-130 / 1633 * 100 # Total response rate (8%)
-
-
-
-# check set up for role_other and involvement in research 
-# TO DO: Can help in deciding what to do with role_other responses
-ri_os_survey %>% 
-  dplyr::select(involvement_research, role_other) %>% 
-  tbl_summary(by = involvement_research)
-
-
-
-# make a line graph with response rate
-response_summary <- ri_os_survey %>%
-  mutate(recorded_date = as.Date(recorded_date)) %>%  # Convert to Date format
-  group_by(recorded_date, country) %>%
-  summarise(Frequency = n(), .groups = 'drop')
-
-ggplot(response_summary, aes(x = recorded_date, y = Frequency, color = as.factor(country))) +
-  geom_line(size = 1) +  # Create separate lines for each country
-  geom_point() +  # Optionally, add points for each observation
-  labs(
-    title = "Frequency of Responses Over Time by Country",
-    x = "Response Date",
-    y = "Frequency of Responses",
-    color = "Country"
-  ) +
-  theme_minimal() +
-  scale_x_date(date_breaks = "1 day", date_labels = "%b %d")  # Adjust x-axis as needed, adjust labels for time
 
 
 # get idea of drop out rates
@@ -571,7 +384,7 @@ ri_os_survey <- ri_os_survey %>%
 # predictor domains, the moderating domain and the outcome domain
 
 
-# To describe the participant background information
+# TABLE 1 To describe the participant background information
 # TO DO: knowledge_ri and knowledge_os should be a scale from 1-5 so debug
 # TO DO: figure out if awareness_ri_total is Yes or No group
 ri_os_survey %>% 
@@ -611,8 +424,8 @@ wordcloud(
   scale = c(1.5, 0.5),
   colors = brewer.pal(8, "Dark2")     # Color palette
 )
-# To DO: COULD ALSO CREATE FREQUENCY GRAPH/TABLE HERE
 
+# To DO: COULD ALSO CREATE FREQUENCY GRAPH/TABLE HERE
 
 # To describe the six predictor domains and the moderating domain
 ri_os_survey %>% 
