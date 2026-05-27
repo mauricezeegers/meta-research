@@ -3,7 +3,8 @@
 #Kirsten Reijbroek
 #Online Survey Analysis
 
-#21-05-2026: Maurice Zeegers overgestapt naar Github
+#27-05-2026: Maurice Zeegers overgestapt naar Github
+#Gechecked tot aan Responsrate calculation
 
 
 # Install and load packages ---------------------------------------------
