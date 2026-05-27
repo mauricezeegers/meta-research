@@ -4,7 +4,7 @@
 #Online Survey Analysis
 
 #27-05-2026: Maurice Zeegers overgestapt naar Github
-#Gechecked tot aan Responsrate calculation
+#Gechecked tot aan Respons Rate Calculation
 
 
 # Install and load packages ---------------------------------------------
@@ -43,8 +43,8 @@ pacman::p_load(rio,           # import/export of many types of data
 
 # Set a Working Directory -------------------------------------------------
 
-
-setwd("~/Library/CloudStorage/OneDrive-MaastrichtUniversity/SERCEA Survey/Data")
+#Home Computer MZ
+setwd("~/Library/Mobile Documents/3L68KQB4HG~com~readdle~CommonDocuments/Documents/To Analyse/SERCEA Survey/Github/SERCEA/survey/data")
 
 # Data Importing Section --------------------------------------------------
 
