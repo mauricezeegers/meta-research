@@ -1,9 +1,8 @@
 #ACKNOWLEDGEMENT INITIONAL CODE
-#16-09-2024
-#Kirsten Reijbroek
-#Online Survey Analysis
-
-#27-05-2026: Maurice Zeegers overgestapt naar Github
+#16-09-2024 Kirsten Reijbroek
+#27-05-2026: Maurice Zeegers
+#R-files are pulled and pushed toGithub
+#Data-files are pulled from OSF (not yet)
 
 # Install and load packages ---------------------------------------------
 
