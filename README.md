@@ -31,7 +31,7 @@ Current Researchers: Raman Mahajan, Manuel Origgi, Maurice Zeegers
 
 Current Projects/Datasets: [SERCEA](https://www.serceaproject.org/), [SERCEA-OSF](https://osf.io/6gd9s/overview), [RI Practices during COVID19](https://osf.io/dc64j/overview), [Ethical Approval Timelines](https://osf.io/2k5fq/overview), [Retraction Watch](https://retractionwatch.com)
 
-Current Researchers: Gowri Gopalakrishna, Enock Kebenei, Kirsten Reijbroek, Paula Saner, Maurice Zeegers
+Current Researchers: Gowri Gopalakrishna, Enock Kebenei, Paula Saner, Maurice Zeegers
 
 1.  Kebenei, Enock, Daisy Cheruiyot, Elizabeth Anne Bukusi, Maurice P. Zeegers, and Gowri Gopalakrishna. “Sustained and Discontinued Operational Changes to Ethics Committees in the Post-Pandemic Era: A Qualitative Study in Kenya.” BMC Medical Ethics, ahead of print, May 23, 2026. https://doi.org/10.1186/s12910-026-01499-z.  
 3.	Bakker, Caitlin J., Erin E. Reardon, Sarah Jane Brown, e.a. ‘Identification of Retracted Publications and Completeness of Retraction Notices in Public Health’. Journal of Clinical Epidemiology 173 (september 2024): 111427. https://doi.org/10.1016/j.jclinepi.2024.111427. [OSF](https://osf.io/rwzym/overview)
