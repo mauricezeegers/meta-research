@@ -143,13 +143,13 @@ footer { margin-top: 48px; padding-top: 12px; border-top: 1px solid var(--line);
 <form class="checklist" id="checklist" autocomplete="off" onsubmit="return false">
   <div class="head-fields">
     <label for="f-title">Article title</label><input type="text" id="f-title" name="title">
-    <label for="f-journal">Journal</label><input type="text" id="f-journal" name="journal">
+    <label for="f-journal">Journal or venue</label><input type="text" id="f-journal" name="journal">
   </div>
 
   <p><strong>I declare that:</strong></p>
 
   <h3>General research conduct</h3>
-  <div class="row"><label class="check"><input type="checkbox" name="gep">The work has been conducted according to Good Epidemiological Research Practices</label></div>
+  <div class="row"><label class="check"><input type="checkbox" name="gep">The work has been conducted according to Good Epidemiological Practice</label></div>
   <div class="row"><label class="check"><input type="checkbox" name="ai">AI is used ethically and declared (see <a href="#s4-2">§4.2</a>)</label></div>
 
   <h3>Cloud: internal working environment (see <a href="#s1">§1</a>)</h3>
@@ -160,7 +160,7 @@ footer { margin-top: 48px; padding-top: 12px; border-top: 1px solid var(--line);
   <h3>GitHub: code &amp; reproducible output (see <a href="#s2">§2</a>)</h3>
   <div class="row"><label class="check"><input type="checkbox" name="gh-repo">Project repository set up on GitHub</label></div>
   <div class="field"><span>Link:</span><input type="url" name="gh-link" aria-label="GitHub link"></div>
-  <div class="row"><label class="check"><input type="checkbox" name="gh-uptodate">Code &amp; output are up to date at submission and shared with the supervisory team</label></div>
+  <div class="row"><label class="check"><input type="checkbox" name="gh-uptodate">Code &amp; output are up to date at submission or release and shared with the supervisory team</label></div>
 
   <h3>Open Archive: open sharing (see <a href="#s3">§3</a>)</h3>
   <div class="row"><label class="check"><input type="checkbox" name="oa-project">The project is on an Open Archive (Zenodo, Figshare or similar)</label></div>
@@ -211,31 +211,33 @@ footer { margin-top: 48px; padding-top: 12px; border-top: 1px solid var(--line);
 <p class="no-print"><button type="button" id="btn-print-all">Print full SOP</button></p>
 
 <h3 id="s1">1. Cloud: internal working environment</h3>
-<p>The project's Cloud environment (UM OneDrive/SharePoint, Google Drive, or another service with sufficient protection and version control) is where the team collaborates on materials not intended for public access: project administration, ethics &amp; regulatory documents, meeting notes, working versions of protocols and Statistical Analysis Plans, manuscript drafts, and the project's master dataset.</p>
+<p>The project's Cloud environment (UM OneDrive/SharePoint, Google Drive, or another service with sufficient protection and version control) is where the team collaborates on materials not intended for public access: project administration, ethics &amp; regulatory documents, meeting notes, working versions of protocols and Statistical Analysis Plans, manuscript drafts (unless written in Quarto on GitHub, see <a href="#s2">§2</a>), and the project's master dataset.</p>
 <p>The master dataset lives in the Cloud as the single official source of the data. Researchers work from a local copy when analysing it. The master dataset is, as a rule, not stored on GitHub. Exceptions are possible only in a private repository and only when agreed with Maurice Zeegers. Once a dataset is final and no longer changes, it can be treated as read-only.</p>
 <p>Suggested folder structure (share the top level with the supervisory team):</p>
 <table class="wrap">
   <tr><th>Project 1 (usually one dataset)</th><th></th></tr>
   <tr><td>Admin</td><td>Protocol (incl. previous versions), ethical documents, etc.</td></tr>
   <tr><td>Data</td><td>Master dataset only (raw, preferably CSV). All conversions happen via code, not by hand.</td></tr>
-  <tr><td>Paper 1, Paper 2 …</td><td>Manuscript drafts (keep previous versions). Code lives on GitHub (see <a href="#s2">§2</a>), not here.</td></tr>
+  <tr><td>Paper 1, Paper 2 …</td><td>Manuscript drafts in Word (keep previous versions). Code, and manuscripts written in Quarto, live on GitHub (see <a href="#s2">§2</a>), not here.</td></tr>
   <tr><td>Project 2 …</td><td>Same structure</td></tr>
 </table>
 
 <h3 id="s2">2. GitHub: code &amp; reproducible output</h3>
-<p>GitHub is the version-controlled environment for research code and reproducible output. Each project gets its own private repository with the same basic structure:</p>
+<p>GitHub is the version-controlled environment for research code, documentation and reproducible output. Each project gets its own private repository with the same basic structure:</p>
 <table>
-  <tr><td><code>code/</code></td><td>Data import, cleaning, variable construction, statistical analysis, functions &amp; supporting code. One file per paper, with extensive comments (R Markdown). Git tracks every change automatically: what changed, when, by whom, and which version produced which result.</td></tr>
-  <tr><td><code>output/</code></td><td>Reproducible outputs generated by the code: tables, figures, statistical output, reports.</td></tr>
+  <tr><td><code>R/</code></td><td>Shared code used by all papers: data import, cleaning, variable construction and functions. All conversions of the data happen here, via code.</td></tr>
+  <tr><td><code>docs/</code></td><td>Documentation: project briefing, data structure, codebook, cleaning decisions, analysis plans.</td></tr>
+  <tr><td><code>&lt;paper&gt;/</code></td><td>One folder per paper: the analysis scripts (R, Python, R Markdown or Quarto) with extensive comments, the manuscript when it is written in Quarto, and an <code>output/</code> folder with the tables, figures and reports the code produces.</td></tr>
 </table>
-<p>Not stored on GitHub: administrative documents, manuscript drafts, or other internal working material. Those stay in the Cloud (<a href="#s1">§1</a>). Research data are, as a rule, not stored on GitHub either (see <a href="#s1">§1</a>). Access is granted per project to authorised researchers and collaborators.</p>
+<p>Git tracks every change automatically: what changed, when, by whom, and which version produced which result.</p>
+<p>Not stored on GitHub: administrative documents (ethics approvals, contracts, correspondence) and other internal working material. Those stay in the Cloud (<a href="#s1">§1</a>). Research data are, as a rule, not stored on GitHub either (see <a href="#s1">§1</a>). Access is granted per project to authorised researchers and collaborators.</p>
 
 <h3 id="s3">3. Open Archive: open sharing</h3>
-<p>The Open Archive (Zenodo, Figshare, or another open repository with persistent identifiers (DOIs) and version control) is for research materials shared with the wider research community or the public. Make a separate Open Archive project per project/dataset, and share it with the supervisory team:</p>
+<p>The Open Archive (Zenodo, Figshare, or another open repository with persistent identifiers (DOIs) and version control) is for research materials shared with the wider research community or the public. Create a separate record or collection in the Open Archive per project/dataset, and share it with the supervisory team:</p>
 <ul>
-  <li><strong>Metadata:</strong> Title, Description, Contributors (co-authors), Project DOI</li>
-  <li><strong>Registrations:</strong> final protocol (posted before data collection), amendments (after). The final protocol can also be published as a preprint on <a href="https://osf.io/preprints/metaarxiv">MetaArXiv</a> or <a href="https://www.medrxiv.org/">medRxiv</a>, in a public GitHub repository, or on <a href="https://zenodo.org/">Zenodo</a> or <a href="https://figshare.com/">Figshare</a>.</li>
-  <li><strong>Contributors:</strong> add as many co-authors as possible to the Open Archive project</li>
+  <li><strong>Metadata:</strong> Title, Description, Contributors (co-authors), DOI</li>
+  <li><strong>Protocol:</strong> final protocol (posted before data collection), amendments (after). The final protocol can also be published as a preprint on <a href="https://osf.io/preprints/metaarxiv">MetaArXiv</a> or <a href="https://www.medrxiv.org/">medRxiv</a>, in a public GitHub repository, or on <a href="https://zenodo.org/">Zenodo</a> or <a href="https://figshare.com/">Figshare</a>.</li>
+  <li><strong>Contributors:</strong> add as many co-authors as possible to the record</li>
 </ul>
 <p>The Cloud is where documents are developed and maintained. The Open Archive is where their final, shareable versions are published.</p>
 
@@ -245,6 +247,7 @@ footer { margin-top: 48px; padding-top: 12px; border-top: 1px solid var(--line);
   <tr><th>File</th><th>Home</th></tr>
   <tr><td>Protocol</td><td>Developed &amp; revised in the Cloud, final/public version on the Open Archive</td></tr>
   <tr><td>Analysis code</td><td>Developed &amp; version-controlled on GitHub. No separate working copies in the Cloud.</td></tr>
+  <tr><td>Manuscript</td><td>Cloud (Word) or GitHub (Quarto), never both</td></tr>
   <tr><td>Master dataset</td><td>Cloud. Local copies for analysis. On GitHub only by exception (see <a href="#s1">§1</a>).</td></tr>
   <tr><td>Internal administration</td><td>Cloud only, unless there's a specific reason to share it elsewhere</td></tr>
 </table>
@@ -252,18 +255,18 @@ footer { margin-top: 48px; padding-top: 12px; border-top: 1px solid var(--line);
 
 <h3 id="s4">4. Publications</h3>
 
-<h3 id="s4-1">4.1 Last checks just before submission</h3>
-<p>The first or corresponding author checks that the data and code lead to the reported results, checks for unintended plagiarism (via <a href="https://library.maastrichtuniversity.nl/apps-tools/similarity-check/">the UM similarity check</a>, using your UM account), and checks AI use (via <a href="https://www.pangram.com/">Pangram</a>).</p>
+<h3 id="s4-1">4.1 Last checks just before submission or release</h3>
+<p>The first or corresponding author checks that the data and code lead to the reported results and checks for unintended plagiarism (via <a href="https://library.maastrichtuniversity.nl/apps-tools/similarity-check/">the UM similarity check</a>, using your UM account).</p>
 
 <h3 id="s4-2">4.2 Disclosures (if relevant)</h3>
 <table class="wrap">
-  <tr><td><strong>AI</strong></td><td>Disclosure: tool name, version, purpose (see <a href="https://arxiv.org/abs/2307.08974">CANGARU</a>). E.g. “No AI was used in language editing, data collection, analysis or the writing of this manuscript. Zotero was used for automatic referencing and to identify potentially retracted papers. All authors declare responsibility for the content generated by AI.”</td></tr>
+  <tr><td><strong>AI</strong></td><td>Disclosure: tool name, version, purpose (see <a href="https://arxiv.org/abs/2307.08974">CANGARU</a>). E.g. “Claude Code (Anthropic; model and version) was used to write and review the analysis code and to edit the language of the Discussion. Zotero was used for referencing and to flag retracted papers. The authors checked all AI output and take full responsibility for the content of this manuscript.”</td></tr>
   <tr><td><strong>Competing interests</strong></td><td>Ask every author for their CoI. All authors express their own opinions, not necessarily those of their funders or employers.</td></tr>
   <tr><td><strong>Funding</strong></td><td>Standard funding statement related to the dataset, plus any other funding.</td></tr>
   <tr><td><strong>Ethical approval</strong></td><td>E.g. “This study was designed according to the Declaration of Helsinki and received ethical approval from #### Committee, number ####.”</td></tr>
   <tr><td><strong>Acknowledgements</strong></td><td>Standard acknowledgement statement related to the dataset, plus any others.</td></tr>
-  <tr><td><strong>Data &amp; materials availability</strong></td><td>E.g. “The protocol and associated resources of this study can be found on the Open Archive (add DOI). Restrictions apply to the availability of these data, which were used under licence for the current study. Data are, however, available from the authors upon reasonable request and with permission of the ### management team.”</td></tr>
-  <tr><td><strong>CRediT</strong></td><td>Author contributions, see <a href="https://www.elsevier.com/researcher/author/policies-and-guidelines/credit-author-statement">this taxonomy</a>.</td></tr>
+  <tr><td><strong>Data &amp; materials availability</strong></td><td>E.g. “The protocol, analysis code and associated resources of this study are available at (add DOI). The data were used under licence and cannot be shared publicly. Access can be requested from (data owner or access committee, with URL), under the conditions described there.”</td></tr>
+  <tr><td><strong>CRediT</strong></td><td>Author contributions, see <a href="https://credit.niso.org/">this taxonomy</a>.</td></tr>
   <tr><td><strong>Patient &amp; Public Involvement</strong></td><td>E.g. “Patients or members of the public were not involved in the design, conduct, reporting, or dissemination plans of this research” or, if they were, describe how (consultation, feedback, what informed which decisions).</td></tr>
 </table>
 
@@ -271,7 +274,7 @@ footer { margin-top: 48px; padding-top: 12px; border-top: 1px solid var(--line);
 <p>The aim is a peer-reviewed scholarly work, not publication in a particular journal, a high journal rank or inclusion in an indexing service. Pre-publication peer review via a journal is one route. Post-publication peer review of a preprint or other citable version with a DOI is equally acceptable. If you choose a journal and publication charges apply, we only submit to journals with a 100% APC discount deal with UM (see the <a href="https://library.maastrichtuniversity.nl/research/publishing/information/funding-and-costs/deals-and-discounts/">Open Access Journal Browser</a>), or to a closed-access journal with no submission fee.</p>
 
 <h3 id="s4-4">4.4 Open access</h3>
-<p>In principle we don't pay a journal directly for open access. Instead, every UM staff member and (external) PhD student signs up for Maastricht University's <a href="https://library.maastrichtuniversity.nl/research/publishing/information/sharing-research-outputs/taverne/">Open Access Green Route (Taverne)</a>. Under Dutch copyright law this makes all papers open access after 6 months, even behind a paywall.</p>
+<p>In principle we don't pay a journal directly for open access. Instead, every UM staff member and (external) PhD student signs up for Maastricht University's <a href="https://library.maastrichtuniversity.nl/research/publishing/information/sharing-research-outputs/taverne/">Open Access Green Route (Taverne)</a>. Under Dutch copyright law (Article 25fa, the Taverne amendment), short scholarly works funded wholly or partly with Dutch public money can then be made open access after 6 months, even when the journal version is behind a paywall.</p>
 </section>
 
 <footer>
