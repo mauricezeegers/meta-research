@@ -1,0 +1,107 @@
+/* Shared styles for the Section Meta-Research pages (copied from /gep, reused by /onboarding). */
+:root {
+  --bg: #ffffff;
+  --text: #1f2328;
+  --muted: #5d6670;
+  --line: #d0d7de;
+  --soft: #f4f6f8;
+  --accent: #1f4e79;
+  --field: #ffffff;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #15181c;
+    --text: #e6e8eb;
+    --muted: #9aa4ae;
+    --line: #3a4149;
+    --soft: #1e2227;
+    --accent: #8fb8e0;
+    --field: #1a1d21;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #15181c;
+  --text: #e6e8eb;
+  --muted: #9aa4ae;
+  --line: #3a4149;
+  --soft: #1e2227;
+  --accent: #8fb8e0;
+  --field: #1a1d21;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+main { max-width: 780px; margin: 0 auto; padding: 40px 16px 64px; }
+a { color: var(--accent); }
+h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 4px; }
+h2 { font-size: 1.35rem; margin: 2.2em 0 0.6em; padding-top: 0.6em; border-top: 1px solid var(--line); }
+h3 { font-size: 1.05rem; margin: 1.6em 0 0.4em; }
+.org { color: var(--muted); margin: 0 0 2px; }
+.meta { color: var(--muted); font-size: 0.9rem; margin: 10px 0 0; }
+.motto { font-style: italic; color: var(--muted); margin: 6px 0 0; }
+.note { background: var(--soft); border: 1px solid var(--line); border-radius: 6px; padding: 12px 14px; margin: 24px 0; }
+table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 0.95rem; }
+th, td { text-align: left; vertical-align: top; padding: 8px 10px; border: 1px solid var(--line); }
+th { background: var(--soft); font-weight: 600; }
+td:first-child { white-space: nowrap; }
+.wrap td:first-child { white-space: normal; }
+
+/* Checklist */
+.checklist { border: 1px solid var(--line); border-radius: 8px; padding: 4px 18px 18px; margin-top: 16px; }
+.checklist h3 { margin-top: 1.2em; }
+.row { display: flex; gap: 10px; align-items: baseline; margin: 6px 0; flex-wrap: wrap; }
+.row > label.check { flex: 1 1 auto; }
+label.check { display: inline-block; position: relative; padding-left: 26px; cursor: pointer; }
+label.check input { position: absolute; left: 0; top: 0.28em; width: 1.05em; height: 1.05em; margin: 0; accent-color: var(--accent); }
+.inline { display: flex; flex-wrap: wrap; gap: 6px 16px; margin: 4px 0 6px 26px; }
+.field { display: flex; gap: 8px; align-items: baseline; margin: 4px 0 8px 26px; flex-wrap: wrap; }
+.field span { color: var(--muted); font-size: 0.92rem; }
+input[type="text"], input[type="url"], input[type="date"] {
+  font: inherit; color: var(--text); background: var(--field);
+  border: 0; border-bottom: 1px solid var(--muted); border-radius: 0;
+  padding: 2px 4px; min-width: 0; flex: 1 1 220px;
+}
+input:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+.head-fields { display: grid; grid-template-columns: max-content 1fr; gap: 8px 12px; align-items: baseline; margin: 14px 0 6px; }
+.head-fields label { font-weight: 600; }
+.sign { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 22px; }
+.sign label { display: flex; flex-direction: column; gap: 2px; font-size: 0.9rem; color: var(--muted); }
+.sign input { flex: none; width: 100%; }
+.actions { display: flex; flex-wrap: wrap; gap: 10px; margin: 18px 0 0; }
+button {
+  font: inherit; font-size: 0.95rem; cursor: pointer;
+  padding: 7px 14px; border-radius: 6px;
+  border: 1px solid var(--line); background: var(--soft); color: var(--text);
+}
+button.primary { background: var(--accent); border-color: var(--accent); color: var(--bg); }
+.hint { color: var(--muted); font-size: 0.88rem; margin: 8px 0 0; }
+footer { margin-top: 48px; padding-top: 12px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.85rem; }
+
+@media (max-width: 560px) {
+  h1 { font-size: 1.55rem; }
+  .sign { grid-template-columns: 1fr; }
+  .head-fields { grid-template-columns: 1fr; gap: 2px; }
+  .head-fields input { margin-bottom: 8px; }
+  td:first-child { white-space: normal; }
+}
+
+/* Print basics shared by all pages */
+@media print {
+  :root { --bg: #fff; --text: #000; --muted: #444; --line: #999; --soft: #fff; --accent: #000; --field: #fff; }
+  @page { size: A4; margin: 14mm 15mm; }
+  body { font-size: 10pt; line-height: 1.35; }
+  main { max-width: none; padding: 0; }
+  a { color: #000; text-decoration: none; }
+  .no-print, .actions, .hint, .note { display: none !important; }
+  h1 { font-size: 16pt; }
+  h2 { font-size: 13pt; border-top: 0; margin: 10pt 0 4pt; padding: 0; break-after: avoid; }
+  h3 { font-size: 10.5pt; margin: 8pt 0 2pt; }
+  input[type="text"], input[type="url"], input[type="date"] { border-bottom: 1px solid #000; padding: 0 2px; }
+  input[type="date"]::-webkit-calendar-picker-indicator { display: none; }
+  table, tr { break-inside: avoid; }
+}
