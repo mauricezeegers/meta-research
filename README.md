@@ -50,7 +50,7 @@ This repo serves https://meta-research.nl via GitHub Pages.
 
 * [meta-research.nl/gep](https://meta-research.nl/gep/): Good Epidemiological Practice, Data & Publishing SOP with checklist.
 * [meta-research.nl/onboarding](https://meta-research.nl/onboarding/): Research Agreement for new students and PhD candidates, with forms that stay in the browser.
-* [meta-research.nl/SLRcourse](https://meta-research.nl/SLRcourse/): landing page for the seminar Systematic Reviews Done Right (concept, not yet announced).
+* [meta-research.nl/SLR](https://meta-research.nl/SLR/): landing page for the seminar Systematic Reviews Done Right (concept, not yet announced).
 * `assets/site.css`: shared styles for these pages.
 
 ---
